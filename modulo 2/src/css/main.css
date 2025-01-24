@@ -1,0 +1,172 @@
+:root {
+    --primary-color: #75d1f8;
+    --secondary-color: #063a72;
+    --bg-color: #fff;
+    --color-active: #75d1f8;
+    --text-primary: #051a28;
+    --text-secondary: #fff;
+    --color-hover: #3d9fda;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    color: var(--text-primary);
+}
+
+.menu {
+    width: 15%;
+    background-color: var(--secondary-color);
+    padding: 10px 20px 0px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    padding-top: 8rem;
+    list-style: none;
+
+    position: fixed;
+    bottom: 2px;
+}
+
+.menu ul li {
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+
+.menu ul li a:hover {
+    color: var(--color-hover);
+}
+
+#active {
+    color: var(--color-active);
+}
+
+.header {
+    min-height: 150px;
+}
+
+.banner--header {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.content {
+    background-color: var(--bg-color);
+    min-height: 300px;
+    padding: 20px;
+}
+
+img {
+    width: 60%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.mt {
+    margin-top: 1rem;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 30px 20px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-slogan {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-title {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: var(--color-hover);
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-section a:hover {
+    color: #007bff;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+}
