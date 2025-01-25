@@ -22,13 +22,10 @@ Abaixo como cada página deve ser criada e estruturada.
 
 ### Estrutura das páginas
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
-
 ![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
 
 \* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
 
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
 ### Página Principal
 1. Deve ter uma imagem no **Header**.
 2. Em **Content** uma breve descrição sobre a clínica.
@@ -68,7 +65,3 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
         - Botões de envias e limpar formulário
 
 3. **Menu** e **Footer** padrões em todas as páginas.
-
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
-
-Bora pra cima!
