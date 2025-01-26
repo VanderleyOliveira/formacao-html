@@ -142,6 +142,7 @@ body {
 
 .tabela-servicos-precos tbody td {
     border: solid 1px var(--border-color);
+    padding: 10px
 }
 
 .tabela-servicos-precos td {
