@@ -1,11 +1,24 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
-a:hover { opacity: 0.7; text-decoration: underline;}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
 
 .bar {
     background-color: #f9f9fb;
@@ -13,6 +26,7 @@ a:hover { opacity: 0.7; text-decoration: underline;}
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+
 .content {
     max-width: 1440px;
     margin: auto;
@@ -20,29 +34,74 @@ a:hover { opacity: 0.7; text-decoration: underline;}
     display: grid;
     gap: 3rem;
     grid-template-areas: "sidebar main anchors";
-    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
     padding-left: 1rem;
     padding-right: 1rem;
     position: relative;
 }
+
 .footer {
     min-height: 100px;
     padding: 0 10px 5px;
 }
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
+
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
+
 figure {
     text-align: center;
 }
 
-span{
+span {
     color: blue;
 }
+
 p {
     text-align: justify;
+}
+
+/* estilos para tabela */
+.tables__container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela {
+    flex: 1;
+    max-width: 600px;
+}
+
+.tabela-aberturas th,
+.tabela-aberturas td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+.tabela-encerramentos th,
+.tabela-encerramentos td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    border-left: none;
+    padding: 8px;
 }
