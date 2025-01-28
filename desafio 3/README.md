@@ -9,5 +9,7 @@ Recriar a Wikipedia usando uma estrutura básica já pré-montada de um layout s
 - Tornar a estrutra semântica
 - Garantir que a leitura de acessibilidade esteja funcionando corretamente
 
-## Links úteis
-- [Download do NVDA](https://www.nvaccess.org/download/)
+## Fontes textuais
+
+- [Wikipedia](https://pt.wikipedia.org/wiki/Wikipédia:Página_principal)
+- [Chat GPT](https://openai.com/index/chatgpt/)
