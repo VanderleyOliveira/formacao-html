@@ -1,3 +1,3 @@
-# Formação HTML 
+# Formação HTML - DIO
 
-Esse repositório é dedicado para os desafios de projeto da Formação HTML da DIO
+Repositório dedicado para os desafios de projeto da Formação HTML da DIO
